@@ -1,6 +1,6 @@
 {
   "name": "@harutyunhayrapetyanst/date-renderer",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "",
   "main": "index.js",
   "repository": "https://github.com/harutyunhayrapetyanst/monorepo-cicd",
@@ -11,7 +11,7 @@
     "test": "echo TEST date-renderer PASSES"
   },
   "dependencies": {
-    "@harutyunhayrapetyanst/date-logic": "^2.3.1"
+    "@harutyunhayrapetyanst/date-logic": "^2.3.2"
   },
   "author": "Harutyun Hayrapetyan",
   "license": "ISC",
