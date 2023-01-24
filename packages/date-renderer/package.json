@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/harutyunhayrapetyanst/monorepo-cicd",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/harutyunhayrapetyanst"
+  },
   "scripts": {
     "test": "echo TEST date-renderer PASSES"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@harutyunhayrapetyanst/date-logic": "^2.1.1"
-  }
+  },
+  "author": {
+    "name": "Harutyun Hayrapetyan",
+    "email": "hhayrapetyan@servicetitan.com"
+  },
+  "license": "ISC"
 }
