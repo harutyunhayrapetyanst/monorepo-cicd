@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2023-01-24)
+
+
+### Features
+
+* **root:** add github action for checks ([#1](https://github.com/harutyunhayrapetyanst/monorepo-cicd/issues/1)) ([42ce73e](https://github.com/harutyunhayrapetyanst/monorepo-cicd/commit/42ce73e2303d745eeca65c24094f63c8abf9e7ef)), closes [#2](https://github.com/harutyunhayrapetyanst/monorepo-cicd/issues/2) [#3](https://github.com/harutyunhayrapetyanst/monorepo-cicd/issues/3) [#4](https://github.com/harutyunhayrapetyanst/monorepo-cicd/issues/4) [#5](https://github.com/harutyunhayrapetyanst/monorepo-cicd/issues/5)
+
+
+
+
+
 ## [1.1.1-beta.0](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-renderer@1.1.0...@harutyunhayrapetyanst/date-renderer@1.1.1-beta.0) (2023-01-24)
 
 
