@@ -1,10 +1,10 @@
 {
-  "name": "@harutst/date-logic",
+  "name": "@harutyunhayrapetyanst/date-logic",
   "version": "1.0.0",
   "description": "",
   "repository": "https://github.com/harutyunhayrapetyanst/monorepo-cicd",
   "publishConfig": {
-    "@harutyunhayrapetyanst:registry": "https://npm.pkg.github.com/harutyunhayrapetyanst"
+    "registry": "https://npm.pkg.github.com/harutyunhayrapetyanst"
   },
   "main": "index.js",
   "scripts": {
