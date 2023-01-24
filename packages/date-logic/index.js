@@ -4,5 +4,7 @@ module.exports = function getDate(
 ) {
     console.log('create date');
     console.log('create date');
+    console.log('create date');
+    console.log('create date');
     return new Date().toLocaleDateString(locale, options);
 };
