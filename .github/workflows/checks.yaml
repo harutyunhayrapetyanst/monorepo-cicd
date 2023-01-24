@@ -1,0 +1,22 @@
+name: Checks # Workflow name
+
+on:
+  pull_request:
+    types: [ opened, synchronize ]
+
+jobs: # workflow jobs list
+  checks: # job name
+    runs-on: ubuntu-latest # Instance type where job will run
+
+    steps:
+      - name: "checkout"
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: "Setup NodeJS 18"
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+
