@@ -1,0 +1,48 @@
+name: Publish
+
+on:
+  pull_request:
+    types: [ closed ]
+    branches:
+      - development
+      - main
+      - master
+
+jobs:
+  publish:
+    if: github.event.pull_request.merged == true # Condition if merged not closed/discard
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: "Setup NodeJS 18"
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: "Npm Setup"
+        run: | #custom actions
+          npm set @harutyunhayrapetyanst:registry=https://npm.pkg.github.com/harutyunhayrapetyanst
+          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+
+      - name: "Version and publish"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+        run: |
+          echo $GH_TOKEN
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          
+          if [ ${{ github.base_ref }} = development ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes
+          else
+            npx lerna version --conventional-commits --conventional-graduate --yes
+          fi
+          
+          npx lerna publish from-git --yes

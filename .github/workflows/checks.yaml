@@ -1,0 +1,33 @@
+name: Checks # Workflow name
+
+on:
+  pull_request:
+    types: [ opened, synchronize ]
+
+jobs: # workflow jobs list
+  checks: # job name
+    runs-on: ubuntu-latest # Instance type where job will run
+
+    steps:
+      - name: "checkout"
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: "Setup NodeJS 18"
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: "Npm Setup"
+        run: | #custom actions
+          npm set @harutyunhayrapetyanst:registry=https://npm.pkg.github.com/harutyunhayrapetyanst
+          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+
+      - name: "Install dependencies"
+        run: | # Install and link dependencies
+          npm ci
+          npx lerna bootstrap
+
+      - name: Run tests # Run tests of all packages
+        run: npx lerna exec npm run test

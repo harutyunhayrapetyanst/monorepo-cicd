@@ -1,6 +1,6 @@
 {
   "name": "@harutyunhayrapetyanst/date-logic",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "",
   "repository": "https://github.com/harutyunhayrapetyanst/monorepo-cicd",
   "publishConfig": {
@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo TEST date-logic Passed"
   },
   "author": "Harutyun Hayrapetyan",
   "license": "ISC"

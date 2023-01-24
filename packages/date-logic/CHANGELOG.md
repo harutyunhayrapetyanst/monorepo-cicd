@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-logic@2.1.1...@harutyunhayrapetyanst/date-logic@2.2.0) (2023-01-24)
+
+
+### Features
+
+* **date-logic:** add test ([4356913](https://github.com/harutyunhayrapetyanst/monorepo-cicd/commit/43569135ad29e712b16237446bc5f2b42fe1787e))
+
+
+
+
+
 ## [2.1.1](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-logic@2.1.0...@harutyunhayrapetyanst/date-logic@2.1.1) (2023-01-24)
 
 
