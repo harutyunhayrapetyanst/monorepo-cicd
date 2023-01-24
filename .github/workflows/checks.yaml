@@ -19,4 +19,12 @@ jobs: # workflow jobs list
         with:
           node-version: '18'
 
+      - name: "Npm Setup"
+        run: | #custom actions
+          npm set @harutyunhayrapetyanst:registry=https://npm.pkg.github.com/harutyunhayrapetyanst
+          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
 
+      - name: "Install dependencies"
+        run: | # Install and link dependencies
+          npm ci
+          npx lerna bootstrap
