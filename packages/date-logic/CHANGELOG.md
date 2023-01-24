@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.1](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-logic@2.3.0...@harutyunhayrapetyanst/date-logic@2.3.1) (2023-01-24)
+
+
+### Bug Fixes
+
+* **root:** fix npmrc ([d855856](https://github.com/harutyunhayrapetyanst/monorepo-cicd/commit/d8558563e49be7d20d5b4bd22ea334614cb2b19a))
+
+
+
+
+
 # [2.3.0](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-logic@2.1.1...@harutyunhayrapetyanst/date-logic@2.3.0) (2023-01-24)
 
 
