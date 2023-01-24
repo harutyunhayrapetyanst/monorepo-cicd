@@ -11,5 +11,6 @@
     "test": "echo TEST date-logic Passed"
   },
   "author": "Harutyun Hayrapetyan",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "d57922ad973aa558deb180ea0633bcf3f6654d37"
 }
