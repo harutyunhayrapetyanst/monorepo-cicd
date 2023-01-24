@@ -31,14 +31,3 @@ jobs: # workflow jobs list
 
       - name: Run tests # Run tests of all packages
         run: npx lerna exec npm run test
-
-      - name: "Do some tasks"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-        run: |
-          echo $GH_TOKEN
-          echo $GITHUB_TOKEN
-          echo "${{ secrets.GITHUB_TOKEN }}"
-          echo "${{ github.actor }}"
