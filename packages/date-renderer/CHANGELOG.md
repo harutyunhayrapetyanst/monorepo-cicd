@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.3](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-renderer@1.2.2...@harutyunhayrapetyanst/date-renderer@1.2.3) (2023-01-24)
+
+
+### Bug Fixes
+
+* **date-renderer:** fix logs ([3cc7e4b](https://github.com/harutyunhayrapetyanst/monorepo-cicd/commit/3cc7e4be42401637bfdf65ddd9cfae2563bbf24d))
+
+
+
+
+
 ## [1.2.2](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-renderer@1.2.1...@harutyunhayrapetyanst/date-renderer@1.2.2) (2023-01-24)
 
 
