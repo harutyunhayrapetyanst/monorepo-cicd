@@ -1,0 +1,14 @@
+{
+  "name": "date-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo TEST date-renderer PASSES"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@harutyunhayrapetyanst/date-logic": "^2.1.1"
+  }
+}
