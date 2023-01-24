@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.3](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-logic@2.3.2...@harutyunhayrapetyanst/date-logic@2.3.3) (2023-01-24)
+
+
+### Bug Fixes
+
+* **date-logic:** fx ([#9](https://github.com/harutyunhayrapetyanst/monorepo-cicd/issues/9)) ([dfec3a2](https://github.com/harutyunhayrapetyanst/monorepo-cicd/commit/dfec3a298ab23d75c791bd5e962ac67e6bc6340b))
+
+
+
+
+
 ## [2.3.2](https://github.com/harutyunhayrapetyanst/monorepo-cicd/compare/@harutyunhayrapetyanst/date-logic@2.3.1...@harutyunhayrapetyanst/date-logic@2.3.2) (2023-01-24)
 
 **Note:** Version bump only for package @harutyunhayrapetyanst/date-logic
